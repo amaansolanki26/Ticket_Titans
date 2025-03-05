@@ -113,7 +113,7 @@ void bookticket()
         printf("\nEnter number of seats to book :");
         scanf("%d", &book);
         seat101 = seat101 - book;
-        if (seat101 <= totalseats && seat101 > 0)
+        if (seat101 <= totalseats && seat101 >= 0 && book>0)
         {
             printf("\n%d Seats booked successfuly.", book);
             printf(" \nTotal seats available= %d ", seat101);
@@ -133,7 +133,7 @@ void bookticket()
         printf("\nEnter number of seats to book :");
         scanf("%d", &book);
         seat102 = seat102 - book;
-        if (seat102 <= totalseats && seat102 > 0)
+        if (seat102 <= totalseats && seat102 >= 0 && book>0)
         {
             printf("\n%d Seats booked successfuly.", book);
             printf(" \nTotal seats available= %d ", seat102);
@@ -153,7 +153,7 @@ void bookticket()
         printf("\nEnter number of seats to book :");
         scanf("%d", &book);
         seat103 = seat103 - book;
-        if (seat103 <= totalseats && seat103 > 0)
+        if (seat103 <= totalseats && seat103 >= 0 && book>0)
         {
             printf("\n%d Seats booked successfuly.", book);
             printf(" \nTotal seats available= %d ", seat103);
@@ -172,7 +172,7 @@ void bookticket()
         printf("\nEnter number of seats to book :");
         scanf("%d", &book);
         seat104 = seat104 - book;
-        if (seat104 <= totalseats && seat104 > 0)
+        if (seat104 <= totalseats && seat104 >= 0 && book>0)
         {
             printf("\n%d Seats booked successfuly.", book);
             printf(" \nTotal seats available= %d ", seat104);
@@ -191,7 +191,7 @@ void bookticket()
         printf("\nEnter number of seats to book :");
         scanf("%d", &book);
         seat105 = seat105 - book;
-        if (seat105 <= totalseats && seat105 > 0)
+        if (seat105 <= totalseats && seat105 >= 0 && book>0)
         {
             printf("\n%d Seats booked successfuly.", book);
             printf(" \nTotal seats available= %d ", seat105);
@@ -221,7 +221,7 @@ void cancelticket()
         printf("\nEnter number of seats to cancel :");
         scanf("%d", &cancel);
         seat101 = seat101 + cancel;
-        if (seat101 <= totalseats && seat101 > 0)
+        if (seat101 <= totalseats && seat101 >= 0 && cancel>0)
         {
             printf("\n%d Seats cancelled successfuly.", cancel);
             printf(" \nTotal seats available= %d ", seat101);
@@ -241,7 +241,7 @@ void cancelticket()
         printf("\nEnter number of seats to cancel :");
         scanf("%d", &cancel);
         seat102 = seat102 + cancel;
-        if (seat102 <= totalseats && seat102 > 0)
+        if (seat102 <= totalseats && seat102 >= 0 && cancel>0)
         {
             printf("\n%d Seats cancelled successfuly.", cancel);
             printf(" \nTotal seats available= %d ", seat102);
@@ -261,7 +261,7 @@ void cancelticket()
         printf("\nEnter number of seats to cancel :");
         scanf("%d", &cancel);
         seat103 = seat103 + cancel;
-        if (seat103 <= totalseats && seat103 > 0)
+        if (seat103 <= totalseats && seat103 >= 0 && cancel>0)
         {
             printf("\n%d Seats cancelled successfuly.", cancel);
             printf(" \nTotal seats available= %d ", seat103);
@@ -280,7 +280,7 @@ void cancelticket()
         printf("\nEnter number of seats to cancel :");
         scanf("%d", &cancel);
         seat104 = seat104 + cancel;
-        if (seat104 <= totalseats && seat104 > 0)
+        if (seat104 <= totalseats && seat104 >= 0 && cancel>0)
         {
             printf("\n%d Seats cancelled successfuly.", cancel);
             printf(" \nTotal seats available= %d ", seat104);
@@ -299,7 +299,7 @@ void cancelticket()
         printf("\nEnter number of seats to cancel :");
         scanf("%d", &cancel);
         seat105 = seat105 + cancel;
-        if (seat105 <= totalseats && seat105 > 0)
+        if (seat105 <= totalseats && seat105 >= 0 && cancel>0)
         {
             printf("\n%d Seats cancelled successfuly.", cancel);
             printf(" \nTotal seats available= %d ", seat105);
