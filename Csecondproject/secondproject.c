@@ -4,15 +4,15 @@
 void login() {
     char username[20], password[20];
     
-    char correct_username[] = "sandeep kumar";  
-    char correct_password[] = "5678";  
+    char correct_username[] = "username";  
+    char correct_password[] = "password";  
 
     
     printf("Enter username= ");
-    scanf("%s", username);
+    scanf("%s", correct_username);
 
     printf("Enter password= ");
-    scanf("%s", password);
+    scanf("%s", correct_password );
 
     
     if (strcmp(username, correct_username) == 0 && strcmp(password, correct_password) == 0) {
@@ -27,7 +27,7 @@ int main() {
 
     
     printf("Bus Management System\n");
-    printf("Press 1 to login\n");
+    printf("please enter your choice=");
     scanf("%d", &choice);
 
     
