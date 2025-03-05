@@ -56,6 +56,7 @@ void menu()
         {
             printf("Please enter a valid task number.");
         }
+        while(getchar() !='\n');
     }
 }
 
@@ -96,6 +97,7 @@ void submenu()
         {
             printf("Please enter a valid task number to run.");
         }
+        while(getchar() !='\n');
     }
 }
 
