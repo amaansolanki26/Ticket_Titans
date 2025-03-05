@@ -26,7 +26,11 @@ int main() {
     int choice;
 
     
-    printf("Bus Management System\n");
+    printf("*****Bus Management System*****\n");
+    printf("1.login\n");
+    printf("2.book ticket\n");
+    printf("3.cancle ticket\n");
+    printf("4. exit\n");
     printf("please enter your choice=");
     scanf("%d", &choice);
 
